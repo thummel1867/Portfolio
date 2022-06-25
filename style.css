@@ -1,23 +1,58 @@
-body {
-    background-color: dodgerblue;
+@font-face {
+    font-family: 'forest-font';
+    src: url(fonts/CfOneTwoTreesRegular-4LGp.ttf);
 }
+
+@font-face {
+    font-family: 'forest-font2';
+    src: url(fonts/Jfwildwood-ldYZ.ttf);
+}
+
+a:hover {
+    color: #228C22;
+    text-decoration: underline overline;
+}
+
+body {
+    background: url("https://www.eea.europa.eu/highlights/eight-facts-about-europe2019s-forest-ecosystems/image_panoramic")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 #intro-page {
     text-align: center;
+    padding: 200px 0;
 }
+
 
 #nav-photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30vh;
+    border-radius: 15px;
 }
 
 #opening-nav {
     text-align: center;
-    list-style-position: inside;
+    padding: 14px 14px;
+    list-style: none;
 }
 
+#nav-page {
+    height: 90vh;
+}
+
+.nav-linkO {
+    padding: 14px;
+    color: white;
+    font-family: 'forest-font2';
+    font-size: 4vh;
+    cursor: pointer;
+}
 
 .page-header {
     text-align: center;
@@ -27,38 +62,86 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #bio-pho {
-    width: 40%;
+    width: 35vw;
+    border-radius: 30px;
+    
 }   
 
 #content {
     flex:6;
     margin-top: 5%;
-    margin-left: 40%;
-   }
+}
 
+#content-div {
+    width: 60vw;
+}
 
 .navbar {
-	margin:50px;
-	width:900px;
-    text-align: center;
-    display:flex;
-    justify-content: space-around;
+    background-color: rgb(34, 8, 8);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
+
 .navbar li {
-    display:flex;
-    justify-content: space-around;
-	width:120px;
+    display: flex;
+    justify-content: space-evenly;
+	width:23vw;
 	float:left;
-	margin-left:2px;
-	border:2px solid #000;
+    color: black;
 } 
+
+.nav-link{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 14px;
+    font-size: 20px;
+    font-family: 'forest-font2'
+}
+
 
 #p-projects {
     text-align: center;
+    height: 70vh;
+    width: 60vh;
+}
+
+.hide {
+    display: none;
+}
+
+#intro-h1 {
+    color: white; 
+    font-family: 'forest-font';
+    font-size: 15vh;
+    cursor: pointer;
 }
 
 
-    
+#nav-button {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#buttonInner {
+    font-size: 30px;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: 'forest-font2';
+}
+

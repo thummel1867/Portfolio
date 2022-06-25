@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<link>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script defer src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div id = "intro-page">
-        <h1>Thomas Hummel</h1>
+    <!-- <div>
+        <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+        </div>
+        
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+        
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+        
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div> -->
     </div>
-    <main>
-        <img id = "nav-photo" src="https://media-exp2.licdn.com/dms/image/C4E03AQEzLmujsn2qtg/profile-displayphoto-shrink_800_800/0/1613606381197?e=1661385600&v=beta&t=2gSI1svKdCOkEs_eb2FfOt16AinvSRuKKsoxzUUVIk0" alt="Linkedin-photo">
+    </div>
+    <div>
+        <button id = "nav-button"><i id ='buttonInner' class="material-icons">menu</i></button>
+    </div>
+    <div id = "intro-page">
+        <h1 id ="intro-h1" >Thomas Hummel</h1>
+    </div>
+    <main class = 'hide' id = "nav-page">
+        <img id = "nav-photo" src="https://scontent.fagc3-2.fna.fbcdn.net/v/t1.6435-9/200541651_2980513875604784_9118685310202729887_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tvRHzruOjukAX_5izWc&_nc_oc=AQn0i_OJ-IAoQ4f74ooUD6qxlW4BziEw-OANGME4PGuhAgIUR6phyFiggcLo-FAzL3c&_nc_ht=scontent.fagc3-2.fna&oh=00_AT-42A5eI0xSVro87wEb8HHuODxKcoQzLVsVbhERdVwgLA&oe=62DBF6E2" alt="Linkedin-photo">
         <ul id = "opening-nav">
-            <li class = "bio">BIO</li>
-            <li class = "projects">PROJECTS</li>
-            <li class = "github">GITHUB</li>
-            <li class = 'cv'>CV</li>
-            <li class = 'linkedin'>LINKEDIN</li>
+            <li id = "bio-nav" <a class = "nav-linkO" href="#">ABOUT ME</a></li>
+            <li id = "projects-nav" <a class = "nav-linkO" href="#">PROJECTS</a></li>
+            <li <a class = "nav-linkO" href="https://github.com/thummel91">GITHUB</a></li>
+            <li <a class = "nav-linkO" href="https://www.linkedin.com/in/thomas-hummel-776980189/">LINKEDIN</a></li>
         </ul>
-    </main>
+    </main> 
+    <section class = 'hide' id = "bio">
     <header class = "page-header">
         <h1>Thomas Hummel</h1>
+        <h2>About Me</h2>
     </header>
-    <section class = "bio-page">
-        <div id = bio-photo>
-            <img id="bio-pho" src = "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.6435-9/200541651_2980513875604784_9118685310202729887_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tvRHzruOjukAX_5izWc&_nc_oc=AQn0i_OJ-IAoQ4f74ooUD6qxlW4BziEw-OANGME4PGuhAgIUR6phyFiggcLo-FAzL3c&_nc_ht=scontent.fagc3-2.fna&oh=00_AT-42A5eI0xSVro87wEb8HHuODxKcoQzLVsVbhERdVwgLA&oe=62DBF6E2" alt = 'facebook'>
-        </div>
-        <div = class = 'art'></div> 
-        <div id ="content-div">
-            <p id = 'content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor nulla, facilisis id dui vitae, vehicula pulvinar nunc. Donec sodales lorem libero. Mauris a sollicitudin orci. Sed eget eros vel nulla lobortis porttitor eget eu lorem. Aenean tempus ut dolor eu varius. Duis vitae mauris eget ipsum lobortis feugiat ut eget lectus. Nullam nec quam vel eros tincidunt suscipit. Vestibulum at purus vel enim consequat vehicula at vitae lacus. Maecenas eu tempor erat. Vivamus nibh nisl, commodo sit amet ultrices ac, dictum in risus. Nam molestie turpis auctor lectus pulvinar faucibus. Curabitur pharetra magna id nibh fermentum vestibulum ac in nisl. Suspendisse eu ipsum vitae ipsum facilisis vestibulum. Maecenas et volutpat est, a laoreet mi.</p>
-        </div>
-        <nav class = "navbar">
-            <ul class = "page-nav">
-                <li class = "bio">BIO</li>
-                <li class = "projects">PROJECTS</li>
-                <li class = "github">GITHUB</li>
-                <li class = 'cv'>CV</li>
-                <li class = 'linkedin'>LINKEDIN</li>
-            </ul>     
-        </nav>
+        <section class = "bio-page">
+            <div id = bio-photo>
+                <img id="bio-pho" src = "https://media-exp2.licdn.com/dms/image/C4E03AQEzLmujsn2qtg/profile-displayphoto-shrink_800_800/0/1613606381197?e=1661385600&v=beta&t=2gSI1svKdCOkEs_eb2FfOt16AinvSRuKKsoxzUUVIk0" alt = 'facebook'>
+            </div>
+            <div = class = 'art'></div> 
+            <div id ="content-div">
+                <p id = 'content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dolor nulla, facilisis id dui vitae, vehicula pulvinar nunc. Donec sodales lorem libero. Mauris a sollicitudin orci. Sed eget eros vel nulla lobortis porttitor eget eu lorem. Aenean tempus ut dolor eu varius. Duis vitae mauris eget ipsum lobortis feugiat ut eget lectus. Nullam nec quam vel eros tincidunt suscipit. Vestibulum at purus vel enim consequat vehicula at vitae lacus. Maecenas eu tempor erat. Vivamus nibh nisl, commodo sit amet ultrices ac, dictum in risus. Nam molestie turpis auctor lectus pulvinar faucibus. Curabitur pharetra magna id nibh fermentum vestibulum ac in nisl. Suspendisse eu ipsum vitae ipsum facilisis vestibulum. Maecenas et volutpat est, a laoreet mi.</p>
+            </div>
+            </section>
     </section>
+    <section class = 'hide' id = "projects-sec">
     <header class = "page-header">
         <h1>Thomas Hummel</h1>
+        <h2>Projects</h2>
     </header>
     <section id = 'projects'>
         <div>
             <p id= 'p-projects'>projects will go here</p>
         </div>
-        <nav class = "navbar">
-            <ul class = "page-nav">
-                <li class = "bio">BIO</li>
-                <li class = "projects">PROJECTS</li>
-                <li class = "github">GITHUB</li>
-                <li class = 'cv'>CV</li>
-                <li class = 'linkedin'>LINKEDIN</li>
-            </ul>     
-        </nav>
     </section>
+    </section>
+    <nav class = "navbar">
+        <ul class = "page-nav">
+            <li id = "bio-nav2"><a class = "nav-link" href="#">BIO</a></li>
+            <li id = "projects2"><a class = "nav-link" href="#">PROJECTS</a></href=></li>
+            <li class = "github"><a class = "nav-link" href="https://github.com/thummel91">GITHUB</a></li>
+            <li class = 'linkedin'><a class = "nav-link" href="https://www.linkedin.com/in/thomas-hummel-776980189/">LINKEDIN</a></li>
+        </ul>     
+    </nav>
 </body>
 </html>
 
