@@ -1,5 +1,7 @@
 # My website
 
+![Opening image](/Users/thomashummel/sei/portfolio/Portfolio/Screen Shot 2022-06-27 at 2.47.13 PM.png)
+
 ## Introduction 
 
 Welcome to my website! This website is designed to get an idea of what I'm all about. I went with a nature theme to highlight my backgound in environmental policy. It is far from complete, and when I'm actually applying to jobs, it will likely look much different, but it's a start that I'll likely build on when I'm on the job hunt. 
@@ -25,10 +27,10 @@ On the opening page, the user will find three things:
 
 The navigation bar is fixed to the bottom page. It consists of four links, which turn a custom shade of green, overline, underline and expand to 110% default size on hover. The links are: 
 
--BIO - links bio page
--Projects - links to projects page
--Github - links to my personal Github
--Linkedin - links to my linkedin
+BIO - links bio page
+Projects - links to projects page
+Github - links to my personal Github
+Linkedin - links to my linkedin
 
 A media query is included on the navigation bar such that each elements takes up the entire screen width beneath 768px. 
 
