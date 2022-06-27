@@ -11,6 +11,7 @@
 a:hover {
     color: #228C22;
     text-decoration: underline overline;
+    transform: scale(1.1);
 }
 
 body {
@@ -69,12 +70,13 @@ body {
 #bio-pho {
     width: 35vw;
     border-radius: 30px;
-    
 }   
 
 #content {
     flex:6;
     margin-top: 5%;
+    color: white;
+    
 }
 
 #content-div {
@@ -126,6 +128,10 @@ body {
     cursor: pointer;
 }
 
+#intro-h1:hover {
+    transform: scale(1.1);
+}
+
 
 #nav-button {
     position: absolute;
@@ -136,8 +142,12 @@ body {
     cursor: pointer;
 }
 
+#nav-button:hover {
+    transform: scale(1.1);
+}
+
 #buttonInner {
-    font-size: 30px;
+    font-size: 27px;
     display: flex; 
     justify-content: center;
     align-content: center;
@@ -145,3 +155,68 @@ body {
     font-family: 'forest-font2';
 }
 
+.page-header { 
+    font-family: 'forest-font';
+    color: white;
+    font-size: 3vh
+}
+
+.headerh2 {
+    font-family: 'forest-font2';
+    font-size: 3vh;
+}
+
+#projects img {
+    width: 30vw;
+    padding: 15px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.tempest:hover {
+    transform: scale(1.1);
+}
+
+.nav-linkO:hover {
+    color: green;
+    color: #228C22;
+    text-decoration: underline overline;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+    .intro-page {    
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #nav-button {
+        display: none;
+    }
+    .page-nav li {
+        width: 85vw;
+        justify-content: center;;
+    }
+
+    #projects img {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 900px) {
+    
+    #content {
+        width: 540px;
+    }
+    #bio-pho {
+        width: 340px;
+    }
+
+}
