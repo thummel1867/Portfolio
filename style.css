@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'forest-font';
     src: url(fonts/CfOneTwoTreesRegular-4LGp.ttf);
+    font-style: normal;
+    font-weight: 100;
 }
 
 @font-face {
@@ -39,6 +41,7 @@ body {
 
 #opening-nav {
     text-align: center;
+    list-style: none; 
 }
 
 #nav-page {
