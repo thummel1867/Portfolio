@@ -39,8 +39,6 @@ body {
 
 #opening-nav {
     text-align: center;
-    padding: 14px 14px;
-    list-style: none;
 }
 
 #nav-page {
@@ -48,11 +46,12 @@ body {
 }
 
 .nav-linkO {
-    padding: 14px;
     color: white;
     font-family: 'forest-font2';
     font-size: 4vh;
     cursor: pointer;
+    text-decoration: none;
+    line-height: 70px;
 }
 
 .page-header {
