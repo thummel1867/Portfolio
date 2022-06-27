@@ -1,6 +1,6 @@
 # My website
 
-![Opening image](/Users/thomashummel/sei/portfolio/Portfolio/Screen Shot 2022-06-27 at 2.47.13 PM.png)
+![This is an image](/Screen%20Shot%202022-06-27%20at%202.47.13%20PM.png)
 
 ## Introduction 
 
