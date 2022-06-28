@@ -10,6 +10,17 @@
     src: url(fonts/Jfwildwood-ldYZ.ttf);
 }
 
+@font-face {
+    font-family: 'forest-font3';
+    src: url(fonts/CfArbreRegular-vaGO.ttf);
+}
+
+@font-face {
+    font-family: 'bea';
+    src: url(fonts/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
+
 a:hover {
     color: #228C22;
     text-decoration: underline overline;
@@ -77,10 +88,14 @@ body {
 
 #content {
     flex:6;
-    margin-top: 5%;
     color: white;
-    
+    font-family: 'bea';
+    font-size: 20px;
+    background: rgb(16, 41, 16);
+    border-radius: 10px;
+    padding: 10px;
 }
+
 
 #content-div {
     width: 60vw;
@@ -228,15 +243,20 @@ body {
     }
 
     #content {
-        width: 540px;
+        width: 585px;
+    }
+
+    #bio-pho {
+        width: 315px;
     }
 
     #bio-page { 
         display: flex;
         flex-wrap: wrap; 
+        max-width: 900px;
     }
+
     #projects {
         margin-bottom: 200x;
     }
-
 }
