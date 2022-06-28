@@ -1,10 +1,20 @@
 # My website
 
-![This is an image](/Screen%20Shot%202022-06-27%20at%202.47.13%20PM.png)
+![Opening page](/Screen%20Shot%202022-06-27%20at%202.47.13%20PM.png)
 
 ## Introduction 
 
 Welcome to my website! This website is designed to get an idea of what I'm all about. I went with a nature theme to highlight my backgound in environmental policy. It is far from complete, and when I'm actually applying to jobs, it will likely look much different, but it's a start that I'll likely build on when I'm on the job hunt. 
+
+## Wireframe 
+
+![Opening page wire](/Screen%20Shot%202022-06-28%20at%2012.01.54%20PM.png)
+
+![Nav page wire](/Screen%20Shot%202022-06-28%20at%2012.02.10%20PM.png)
+
+![Bio page wire](/Screen%20Shot%202022-06-28%20at%2012.02.25%20PM.png)
+
+![Projects page wire](/Screen%20Shot%202022-06-28%20at%2012.02.38%20PM.png)
 
 ## Navigation 
 
