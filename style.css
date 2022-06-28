@@ -33,10 +33,10 @@ body {
 
 #nav-photo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 30vh;
     border-radius: 15px;
+    top: 60px;
 }
 
 #opening-nav {
@@ -45,7 +45,8 @@ body {
 }
 
 #nav-page {
-    height: 90vh;
+    height: 80vhvh;
+    padding: 60px;
 }
 
 .nav-linkO {
@@ -179,7 +180,7 @@ body {
     align-content: center;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .tempest:hover {
@@ -204,21 +205,38 @@ body {
     }
     .page-nav li {
         width: 85vw;
-        justify-content: center;;
+        justify-content: center;
     }
 
     #projects img {
         width: 80vw;
     }
+    
+    #projects {
+        margin-bottom: 200px;
+    }
+
+    #nav-page {
+        margin-bottom: 150px;
+    }
 }
 
 @media (min-width: 900px) {
-    
+
+    #projects {
+        padding: 0px 0;
+    }
+
     #content {
         width: 540px;
     }
-    #bio-pho {
-        width: 340px;
+
+    #bio-page { 
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    #projects {
+        margin-bottom: 200x;
     }
 
 }
